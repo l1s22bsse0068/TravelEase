@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: #002c3e;
+  padding: 15px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bfa6;
+}
+
+.section-title {
+  font-size: 34px;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: #002c3e;
+  font-weight: 600;
+}
+
+.guide-section {
+  padding: 40px 0;
+}
+
+.tips h3,
+.downloads h3,
+.faq h3 {
+  color: #002c3e;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.tips ul,
+.downloads ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.tips ul li,
+.downloads ul li {
+  background: #fff;
+  border-left: 5px solid #00bfa6;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.downloads ul li a {
+  text-decoration: none;
+  color: #002c3e;
+  font-weight: 500;
+}
+
+.downloads ul li a:hover {
+  color: #00997f;
+}
+
+.faq-item {
+  background: #eef3f7;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-left: 4px solid #002c3e;
+}
+
+footer {
+  background: #001b28;
+  color: #e2e2e2;
+  padding: 30px 0;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.socials a {
+  color: #00bfa6;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #00ffd0;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
