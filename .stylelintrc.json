@@ -9,6 +9,6 @@
     "selector-max-id": 0,
     "number-max-precision": 2,
     "length-zero-no-unit": true,
-    "selector-list-comma-newline-after": "always"
+    "declaration-no-important":true
   }
 }
