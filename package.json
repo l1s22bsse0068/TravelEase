@@ -1,0 +1,17 @@
+{
+  "name": "travelease-north-pakistan",
+  "version": "1.0.0",
+  "description": "TravelEase - A static website to guide and inspire tourism in Northern Pakistan.",
+  "scripts": {
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:html": "htmlhint \"**/*.html\"",
+    "lint": "npm run lint:css && npm run lint:html"
+  },
+  "author": "TravelEase Team",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0",
+    "htmlhint": "^1.1.4"
+  }
+}
