@@ -15,10 +15,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Lint HTML Files with HTMLHint
-        run: npx htmlhint "./src/**/*.html"
+        run: npx htmlhint "**/*.html"
 
       - name: Lint CSS Files with Stylelint
-        run: npx stylelint "./src/css/**/*.css"
+        run: npx stylelint "**/*.css" --allow-empty-input 
 
   build-release-job:
     name: Build with Parcel
