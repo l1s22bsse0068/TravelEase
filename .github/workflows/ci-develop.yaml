@@ -15,7 +15,7 @@ jobs:
       - name: Lint HTML Files With HTMLHint
         run: npx htmlhint "**/*.html"
       - name: Lint CSS Files With Stylelint
-        run: npx stylelint "**/*.css" 
+        run: npx stylelint "**/*.css" --allow-empty-input 
   build-develop-job:
     runs-on: ubuntu-latest
     steps:
