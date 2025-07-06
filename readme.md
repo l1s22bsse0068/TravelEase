@@ -44,9 +44,6 @@ TravelEase is a content-rich static website that introduces travelers to the sce
 │   ├── planner.css
 │   ├── stories.css
 │   └── contact.css
-├── assets/
-│   ├── images/
-│   └── pdfs/
 ├── .stylelintrc.json
 ├── .htmlhintrc
 └── .github/
