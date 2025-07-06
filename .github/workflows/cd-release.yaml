@@ -2,7 +2,7 @@ name: wf-cd-release
 on:
   push:
     branches:
-      - release
+      - release/**
 jobs:
   upload-job-release:
     runs-on: ubuntu-latest
